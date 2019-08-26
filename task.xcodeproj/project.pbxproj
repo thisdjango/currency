@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CB0787922314038600AAC43D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787912314038600AAC43D /* AppDelegate.swift */; };
-		CB0787942314038600AAC43D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787932314038600AAC43D /* ViewController.swift */; };
 		CB0787972314038600AAC43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0787952314038600AAC43D /* Main.storyboard */; };
 		CB0787992314038600AAC43D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0787982314038600AAC43D /* Assets.xcassets */; };
 		CB07879C2314038600AAC43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB07879A2314038600AAC43D /* LaunchScreen.storyboard */; };
+		CB0787A423142F8E00AAC43D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787A323142F8E00AAC43D /* TableViewController.swift */; };
+		CB0787A623142F9D00AAC43D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787A523142F9D00AAC43D /* TableViewCell.swift */; };
+		CB0787A82314387D00AAC43D /* FirstCurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787A72314387D00AAC43D /* FirstCurrencyTableViewController.swift */; };
+		CB0787AA2314388E00AAC43D /* SecondCurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787A92314388E00AAC43D /* SecondCurrencyTableViewController.swift */; };
+		CB0787AC231438AD00AAC43D /* FirstCurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787AB231438AD00AAC43D /* FirstCurrencyTableViewCell.swift */; };
+		CB0787AE231438C000AAC43D /* SecondCurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0787AD231438C000AAC43D /* SecondCurrencyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CB07878E2314038600AAC43D /* task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0787912314038600AAC43D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB0787932314038600AAC43D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB0787962314038600AAC43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB0787982314038600AAC43D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB07879B2314038600AAC43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB07879D2314038600AAC43D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0787A323142F8E00AAC43D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CB0787A523142F9D00AAC43D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CB0787A72314387D00AAC43D /* FirstCurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCurrencyTableViewController.swift; sourceTree = "<group>"; };
+		CB0787A92314388E00AAC43D /* SecondCurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCurrencyTableViewController.swift; sourceTree = "<group>"; };
+		CB0787AB231438AD00AAC43D /* FirstCurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		CB0787AD231438C000AAC43D /* SecondCurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCurrencyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				CB0787912314038600AAC43D /* AppDelegate.swift */,
-				CB0787932314038600AAC43D /* ViewController.swift */,
 				CB0787952314038600AAC43D /* Main.storyboard */,
 				CB0787982314038600AAC43D /* Assets.xcassets */,
 				CB07879A2314038600AAC43D /* LaunchScreen.storyboard */,
 				CB07879D2314038600AAC43D /* Info.plist */,
+				CB0787A323142F8E00AAC43D /* TableViewController.swift */,
+				CB0787A523142F9D00AAC43D /* TableViewCell.swift */,
+				CB0787A72314387D00AAC43D /* FirstCurrencyTableViewController.swift */,
+				CB0787A92314388E00AAC43D /* SecondCurrencyTableViewController.swift */,
+				CB0787AB231438AD00AAC43D /* FirstCurrencyTableViewCell.swift */,
+				CB0787AD231438C000AAC43D /* SecondCurrencyTableViewCell.swift */,
 			);
 			path = task;
 			sourceTree = "<group>";
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB0787942314038600AAC43D /* ViewController.swift in Sources */,
+				CB0787A623142F9D00AAC43D /* TableViewCell.swift in Sources */,
+				CB0787AA2314388E00AAC43D /* SecondCurrencyTableViewController.swift in Sources */,
+				CB0787AE231438C000AAC43D /* SecondCurrencyTableViewCell.swift in Sources */,
+				CB0787AC231438AD00AAC43D /* FirstCurrencyTableViewCell.swift in Sources */,
 				CB0787922314038600AAC43D /* AppDelegate.swift in Sources */,
+				CB0787A423142F8E00AAC43D /* TableViewController.swift in Sources */,
+				CB0787A82314387D00AAC43D /* FirstCurrencyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
